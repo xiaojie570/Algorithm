@@ -35,3 +35,15 @@
 
 :fist: 可以先把长的字符串a中的所有字符都放入一个散列表中，然后轮询短字符串b，看b中的每个字符是否都在散列表中，如果都在，说明长字符串a包含短字符串b；否则，说明不包含    
 :fist: 进一步，可以使用位运算（26位整数表示）位长字符串a计算出一个“签名”，再逐一对短字符串b中的字符放到a中进行查找。
+
+
+
+:sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles:
+#### 题目三：回文判断 **Palindrome** 类  
+
+**题目描述：**    :point_right:   
+
+ 给定一个字符串，如何判断这个字符串是否是回文串？  
+ 
+**解法：两头往中间扫**   
+ :fist: 给定一个字符串，定义两个分别指向字符串的头和尾的指针，然后让这两个指针都往字符串的中间扫描，扫描的过程中。 如果头和尾锁指的字符至始至终都一样，即该字符串尾为回文串。
