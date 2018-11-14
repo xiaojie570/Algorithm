@@ -3,7 +3,7 @@ package com.string;
 /**
  * Created by lenovo on 2018/11/12.
  */
-public class LongestPalindrome {
+public class LongestPalindrome_1 {
     public static int longestPalindrome(String s) {
         int length = s.length();
         // max：最长回文串的长度
@@ -40,6 +40,6 @@ public class LongestPalindrome {
     public static void main(String[] args) {
 
         String s = "abcdcba";
-        System.out.println(LongestPalindrome.longestPalindrome(s));
+        System.out.println(LongestPalindrome_1.longestPalindrome(s));
     }
 }

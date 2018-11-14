@@ -46,4 +46,18 @@
  给定一个字符串，如何判断这个字符串是否是回文串？  
  
 **解法：两头往中间扫**   
- :fist: 给定一个字符串，定义两个分别指向字符串的头和尾的指针，然后让这两个指针都往字符串的中间扫描，扫描的过程中。 如果头和尾锁指的字符至始至终都一样，即该字符串尾为回文串。
+ :fist: 给定一个字符串，定义两个分别指向字符串的头和尾的指针，然后让这两个指针都往字符串的中间扫描，扫描的过程中。 如果头和尾锁指的字符至始至终都一样，即该字符串尾为回文串。  
+ 
+ 
+ 
+ :sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles::sparkles:
+#### 题目四：最长回文子串 **LongestPalindrome** 类  
+
+**题目描述：**    :point_right:   
+
+ 给定一个字符串，求它的最长回文子串的长度。 
+ 
+**解法：中心扩展法**   
+ :fist: 如何进行高效的判断呢？试想，如果一段字符串是回文串，那么以某个字符为中心的前缀和后缀必定是相同的。例如：以回文串“aba”为例，以b为中心，它的前缀和后缀都是a。**因此，我们可以枚举中心位置，然后再在该位置上扩展，记录并更新得到的最长回文串的长度。**  
+ 
+ 
